@@ -8,6 +8,6 @@
   "cleanup": true,
   "theme": "cards",
   "css": "./custom.css",
-  "footer": "Copyright 2023",
+  "footer": "",
   "usage-stats": false
 }
