@@ -1,6 +1,7 @@
-# Github Pages Gallery
+<h1 align=center>Github Pages Gallery<h1>
 
-Host your photo/video gallery in Github pages easily using Thumbsup & Github Actions for free.
+ 
+<p align=center><img src="https://miguelpimentel.do/photo-gallery/media/large/xhf-photo124.jpg" width="500px"/></p>
 
 ## Why this project?
 
