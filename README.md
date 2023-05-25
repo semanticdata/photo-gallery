@@ -1,7 +1,8 @@
-<h1 align=center>Github Pages Gallery<h1>
+# Photo Gallery
 
- 
-<p align=center><img src="https://miguelpimentel.do/photo-gallery/media/large/xhf-photo124.jpg" width="500px"/></p>
+Photo gallery featuring my pets and family. Hosted on GitHub Pages.
+
+<img alt="Olivia on the left. Honey on the right." src="https://miguelpimentel.do/photo-gallery/media/large/xhf-photo124.jpg" width="500px"/>
 
 ## Why this project?
 
