@@ -2,26 +2,15 @@
 
 Photo gallery featuring my pets and family. Hosted on GitHub Pages.
 
-<img alt="Olivia on the left. Honey on the right." src="https://miguelpimentel.do/photo-gallery/media/large/xhf-photo124.jpg" width="500px"/>
+## Example Photo
 
-## Why this project?
+<img alt="Olivia on the left. Honey on the right." src="https://raw.githubusercontent.com/semanticdata/photo-gallery/master/gallery/xhf-photo124.jpg" width="500px"/>
 
-This project contains starter code for anyone who wants to deploy his/her photo/video galery on Github Pages,
-**Zero Coding Needed**. Since Github pages is a free hosting service offered by Github to host static pages, it
-offers a decent bandwidth. So it is a great choice for photographers to showcase their works. Github Actions is a CI & CD
-platform that offers unlimited builds for open source projects. Combining the power of GitHub pages with Github Actions is
-a zero dollar solution to get your gallery online.
+## Screenshot
 
-## How to use
+![website screenshot](screenshot.png)
 
-Follow the steps below to get your Gallery online. You will be using GitHub web interface to do everything.
-:wink: No frustrating CLIs:
-
-1. SignUp for a Github account and verify your email ID: https://github.com/join
-2. Click on the use this template button:
-3. Type a Name for your new repository
-4. Click on the settings tab. Click on the **Pages** option under the **Code and automation** section. Make sure that you have the **GitHub actions** selected as the **Source** for the GitHub pages.
-5. Edit [config.json](config.json) by clicking on the edit button in the newly created repository under your account:
+## Configuration
 
 ```json
 {
@@ -39,6 +28,8 @@ Follow the steps below to get your Gallery online. You will be using GitHub web 
 }
 ```
 
+## Themes
+
 You can chose from any of the themes below to set the value for theme key:
 
 - `mosaic` - https://thumbsup.github.io/demos/themes/mosaic/
@@ -48,26 +39,12 @@ You can chose from any of the themes below to set the value for theme key:
 
 You can learn more about the configuration file here: https://thumbsup.github.io/docs/3-configuration/usage/.
 
-1. Go to actions tab of your new repository, Wait till the Initial build completes. It will show you the check mark.
-2. You are all set with your new awesome gallery! Add Albums or photos to make it live.
-
-#### Adding a new album to gallery
+## Adding a new album to gallery
 
 1. Go to the gallery folder of the forked repo.
 2. Click on Create a new file button.
 3. Type AlbumName/.gitkeep in the input box
 4. Click Commit Changes button at the bottom.
-
-#### Adding Media
-
-1. Go to gallery folder. Open any albums if any.
-2. Click on Upload files button
-3. Select files. Once it finishes upload, click Commit Changes button.
-
-#### Finding your website URL
-
-If you had done all the above steps then your website will be live now. Please check Github Actions tab in your repository for the sttaus of the
-deployment. Once it is done, Go to settings tab again and scroll down to the Github Pages section to find your public gallery URL.
 
 ## Limitations
 
@@ -77,6 +54,11 @@ deployment. Once it is done, Go to settings tab again and scroll down to the Git
 
 ## Tools Used
 
-- [Github Actions](https://github.com/features/actions) For continuous deployment.
-- [Thumbsup](https://thumbsup.github.io/) for gallery static page generation.
+- [GitHub Pages Gallery](https://github.com/gautamkrishnar/github-pages-gallery) for the template.
 - [GithHub Pages](https://pages.github.com/) for hosting.
+- [Thumbsup](https://thumbsup.github.io/) for gallery static page generation.
+- [Github Actions](https://github.com/features/actions) For continuous deployment.
+
+## License
+
+Source code is available under [MIT](LICENSE).
